@@ -8,5 +8,5 @@ import { Observable } from 'rxjs';
 export class ApiService {
   constructor() {}
 
-  getCards(): Observable<Http2ServerResponse> {}
+  getCards(): Observable {}
 }
