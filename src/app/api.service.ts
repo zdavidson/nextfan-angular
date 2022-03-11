@@ -7,8 +7,6 @@ interface Card {}
   providedIn: 'root',
 })
 export class ApiService {
-  constructor() {}
-
   public getCards(): Observable<Card[]> {
     const items: Card[] = [
       {
@@ -47,7 +45,7 @@ export class ApiService {
     return of(items);
   }
 
-  promiseGetCards() {
+  getCardsPromise() {
     const items = [
       {
         imageUrl: '',
