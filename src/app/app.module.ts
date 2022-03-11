@@ -10,9 +10,10 @@ import { TestRouteTwoComponent } from './test-route-two/test-route-two.component
 import { TestRouteThreeComponent } from './test-route-three/test-route-three.component';
 import { TestRouteFourComponent } from './test-route-four/test-route-four.component';
 import { TopCardsComponent } from './top-cards/top-cards.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
-  declarations: [AppComponent, FirstComponent, SecondComponent, TestRouteOneComponent, TestRouteTwoComponent, TestRouteThreeComponent, TestRouteFourComponent, TopCardsComponent],
+  declarations: [AppComponent, FirstComponent, SecondComponent, TestRouteOneComponent, TestRouteTwoComponent, TestRouteThreeComponent, TestRouteFourComponent, TopCardsComponent, CardComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
