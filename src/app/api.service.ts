@@ -11,33 +11,37 @@ export class ApiService {
     const items: Card[] = [
       {
         imageUrl: '',
-        name: '',
+        name: 'item1',
         price: 345,
-        description: '',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur sit amet nisi ac ultricies. Praesent vulputate gravida rutrum. Nam.',
         itemCount: 234,
         createdDate: new Date().valueOf(),
       },
       {
         imageUrl: '',
-        name: '',
+        name: 'item2',
         price: 345,
-        description: '',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur sit amet nisi ac ultricies. Praesent vulputate gravida rutrum. Nam.',
         itemCount: 234,
         createdDate: new Date().valueOf(),
       },
       {
         imageUrl: '',
-        name: '',
+        name: 'item3',
         price: 345,
-        description: '',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur sit amet nisi ac ultricies. Praesent vulputate gravida rutrum. Nam.',
         itemCount: 234,
         createdDate: new Date().valueOf(),
       },
       {
         imageUrl: '',
-        name: '',
+        name: 'item4',
         price: 345,
-        description: '',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur sit amet nisi ac ultricies. Praesent vulputate gravida rutrum. Nam.',
         itemCount: 234,
         createdDate: new Date().valueOf(),
       },
@@ -49,33 +53,37 @@ export class ApiService {
     const items = [
       {
         imageUrl: '',
-        name: '',
+        name: 'item1',
         price: 345,
-        description: '',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur sit amet nisi ac ultricies. Praesent vulputate gravida rutrum. Nam.',
         itemCount: 234,
         createdDate: new Date().valueOf(),
       },
       {
         imageUrl: '',
-        name: '',
+        name: 'item2',
         price: 345,
-        description: '',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur sit amet nisi ac ultricies. Praesent vulputate gravida rutrum. Nam.',
         itemCount: 234,
         createdDate: new Date().valueOf(),
       },
       {
         imageUrl: '',
-        name: '',
+        name: 'item3',
         price: 345,
-        description: '',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur sit amet nisi ac ultricies. Praesent vulputate gravida rutrum. Nam.',
         itemCount: 234,
         createdDate: new Date().valueOf(),
       },
       {
         imageUrl: '',
-        name: '',
+        name: 'item4',
         price: 345,
-        description: '',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur sit amet nisi ac ultricies. Praesent vulputate gravida rutrum. Nam.',
         itemCount: 234,
         createdDate: new Date().valueOf(),
       },

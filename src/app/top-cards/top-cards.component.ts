@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api.service';
 
-interface ListofItems<Array> {}
-
 @Component({
   selector: 'app-top-cards',
   templateUrl: './top-cards.component.html',
@@ -10,6 +8,7 @@ interface ListofItems<Array> {}
 })
 export class TopCardsComponent implements OnInit {
   constructor(private apiService: ApiService) {}
+  allItems = 'theseItems';
 
   ngOnInit(): void {}
 
@@ -22,6 +21,7 @@ export class TopCardsComponent implements OnInit {
           listOfItems.push(item);
         });
         console.log(listOfItems);
+        return listOfItems;
       },
       error(msg) {
         console.log('Error getting location', msg);
