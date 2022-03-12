@@ -5,7 +5,11 @@
     {{ item.name }}
   </div>
 
-  <div class="w-52 h-52 bg-red-500">
+  <div class="w-52 h-52 bg-red-500" (click)="onClick()">
+    {{ this.listOfItems }}
+  </div>
+
+  <div class="w-52 h-52 bg-green-500" (click)="onClick()">
     {{ listOfItems }}
   </div>
 </div>

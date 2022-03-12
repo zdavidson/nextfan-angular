@@ -6,7 +6,12 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./card.component.css'],
 })
 export class CardComponent implements OnInit {
-  @Input() listOfItems = '';
+  // lotsOfItems: Array<any>;
+
+  // constructor(manyItems: Array<any>) {
+  //   this.lotsOfItems = manyItems;
+  // }
+  @Input() listOfItems = {};
 
   items = [
     {
@@ -43,7 +48,9 @@ export class CardComponent implements OnInit {
     },
   ];
 
-  constructor() {}
-
   ngOnInit(): void {}
+
+  onClick() {
+    console.log(this.listOfItems);
+  }
 }

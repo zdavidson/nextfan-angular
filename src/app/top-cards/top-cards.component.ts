@@ -7,12 +7,13 @@ import { ApiService } from '../api.service';
   styleUrls: ['./top-cards.component.css'],
 })
 export class TopCardsComponent implements OnInit {
+  allItems = {};
+
   constructor(private apiService: ApiService) {}
-  allItems = 'theseItems';
 
   ngOnInit(): void {}
 
-  ngAfterViewInit() {
+  ngAfterContentInit(childItems: any) {
     this.apiService.getCards().subscribe({
       next(items) {
         console.log('Current items', items);
@@ -20,12 +21,15 @@ export class TopCardsComponent implements OnInit {
         items.map((item) => {
           listOfItems.push(item);
         });
+        childItems = listOfItems;
         console.log(listOfItems);
-        return listOfItems;
+        console.log(childItems);
       },
       error(msg) {
-        console.log('Error getting location', msg);
+        console.log('Error', msg);
       },
     });
+    this.allItems = childItems;
+    console.log(this.allItems);
   }
 }
